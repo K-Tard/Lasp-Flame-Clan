@@ -9,28 +9,78 @@
         <meta name="author" content="SitePoint">
 
         <link rel="stylesheet" href="../css/style.css">
-
+<link rel="stylesheet" type="text/css" href="gallery.css"
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
 
     <body>
 
-        <!-- Navigation Bar -->
+        
+
+
+
+
+
+        <!-- Page Heading -->
+        <div style="text-align:center">
+            <h2>Gallery!</h2>
+            <p>Have a look at these awesome photos </p>
+        </div>
+<!-- Navigation Bar -->
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <!-- TODO: Add a link to your second page (gallery) into the navigation bar -->
-            <li><a href=""></a></li>
+                <center>     
+        <li><a href="index.html">Home</a></li>
+        <li><a href="file:///Users/s2999381/Documents/Lasp-Flame-Clan/csit-ibelong/pages/gallery.html">Gallery</a></li> 
+        <li><a href="https://www.twitch.tv/gears2">About</a></li>
+        <li><a href="https://www.youtube.com/watch?v=L7h9VYnOprs">Help</a></li>    
+        </center>   
         </ul>
 
         <!-- TODO: Add some line breaks so your images are so close to your navigation bar  -->
 
-        <!-- Page Heading -->
-        <div style="text-align:center">
-            <h2>Our Image Gallery</h2>
-            <p>Click on the images below for a larger view:</p>
-        </div>
-
         <!-- Gallery -->
         <!-- TODO: Add the source location of each of your images -->
+        <div class="container">
+                <h2>Epic Photos</h2>  
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="TomStare.JPG.zip" alt="TomStare" style="width:100%;">
+                    </div>
+              
+                    <div class="item">
+                      <img src="chicago.jpg" alt="Chicago" style="width:100%;">
+                    </div>
+                  
+                    <div class="item">
+                      <img src="ny.jpg" alt="New york" style="width:100%;">
+                    </div>
+                    
+                    <div class="item">
+                      <img src="ny.jpg" alt="New york" style="width:100%;">
+                    </div>
+                  </div>
+        
+        
+        
+        
+        
+        
+        
         <div class="gallery">
             <a target="_blank" href="../img/android-me.jpg">
                 <img src="../img/android-me.jpg" alt="Cinque Terre" width="600" height="400">
